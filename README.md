@@ -1,1 +1,1 @@
-# recursive-file-editor
+# Recursive file editor
