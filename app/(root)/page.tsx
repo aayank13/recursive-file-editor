@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useState } from 'react'
-import { ChevronDown, ChevronRight, File, Folder, GitBranch, History, Search } from 'lucide-react'
+import { ChevronDown, ChevronRight, File, GitBranch, History, Search } from 'lucide-react'
 import { fileStructure } from '@/data/fileStructure'
 
 type FileSystemItem = {
@@ -67,7 +67,7 @@ const FileTree: React.FC<{
   )
 }
 
-const page: React.FC = () => {
+const Page: React.FC = () => {
   const [selectedFile, setSelectedFile] = useState<FileSystemItem | null>(null)
 
   const handleFileClick = (file: FileSystemItem) => {
@@ -140,4 +140,4 @@ const page: React.FC = () => {
   )
 }
 
-export default page
+export default Page
