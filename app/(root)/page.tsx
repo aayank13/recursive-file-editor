@@ -75,9 +75,9 @@ const Page: React.FC = () => {
   }
 
   return (
-    <div className="flex h-screen bg-white text-gray-800">
+    <div className="flex h-screen bg-white text-gray-800 flex-col md:flex-row">
       {/* Sidebar */}
-      <div className="w-80 border-r border-gray-200 flex flex-col">
+      <div className="w-full md:w-80 border-r border-gray-200 flex flex-col border-y-2 md:border-y-0">
         <div className="p-4 border-b border-gray-200">
           <div className="flex items-center justify-between mb-2">
             <h2 className="text-lg font-semibold">my-project</h2>
